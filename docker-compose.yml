@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  try-parser:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: try-parser/assignment
+    volumes:
+     - .:/usr/src/myapp
+    stdin_open: true
+    tty: true
