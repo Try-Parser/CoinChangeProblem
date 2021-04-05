@@ -272,6 +272,7 @@ public class Deno {
 
 	      		if(poss) {
 	      			withdraw.add(elem);
+	      			break;
 	      		}
 	      	}
 	    } else 
